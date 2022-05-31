@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM golang:1.17.10-buster
 RUN mkdir /code
 WORKDIR /code
 COPY . /code
