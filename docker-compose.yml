@@ -1,0 +1,12 @@
+version: "3"
+
+networks:
+  grpc-web:
+    driver: bridge
+
+services:
+  grpc-server:
+    build: .
+    volumes:
+      - .:/code
+
